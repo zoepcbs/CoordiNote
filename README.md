@@ -1,4 +1,4 @@
-[original repo link - currently privated] (https://github.com/jxie26/CoordiNote)
+[original repo link - currently privated](https://github.com/jxie26/CoordiNote)
 
 
 # CoordiNote
