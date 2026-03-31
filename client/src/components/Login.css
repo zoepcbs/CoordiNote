@@ -1,0 +1,132 @@
+/* Full screen gradient background */
+.login-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #69c4ff, #1d9bf0);
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  /* White card container */
+  .login-card {
+    background-color: white;
+    padding: 2.5rem 3rem;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Logo header */
+  .logo {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #1e40af;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Welcome text */
+  h2 {
+    margin-bottom: 0.25rem;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Inputs */
+  form input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Labels */
+  form label {
+    text-align: left;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+  }
+  
+  /* Checkbox & forgot password */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .remember-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  
+  .forgot {
+    color: #1e40af;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  /* Sign in button */
+  .login-btn {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    background-color: #0046b8;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .login-btn:hover {
+    background-color: #003b9f;
+  }
+  
+  /* Create account link */
+  .create-account {
+    font-size: 0.9rem;
+  }
+  
+  .create-account a {
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Top-left Home button */
+  .home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border: 2px solid #1e40af;
+    color: #1e40af;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .home-btn:hover {
+    background-color: #e8f0ff;
+  }
+  

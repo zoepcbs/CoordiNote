@@ -1,0 +1,99 @@
+.landing-container {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    background-color: #f0f4f8;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  /* Left side */
+  .landing-left {
+    flex: 1;
+    padding: 60px;
+    z-index: 2;
+  }
+  
+  .landing-left h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .landing-left h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e40af;
+    margin-bottom: 1.5rem;
+  }
+  
+  .landing-left p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 2rem;
+    max-width: 400px;
+  }
+  
+  .get-started {
+    background-color: #1e40af;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .get-started:hover {
+    background-color: #1a3a9e;
+  }
+  
+  /* Right blue shape */
+  .landing-right-shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #60a5fa;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Top right nav buttons */
+  .landing-nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 3;
+  }
+  
+  .landing-nav-buttons button {
+    margin-left: 10px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: white;
+    color: #1e40af;
+    border: 2px solid #1e40af;
+  }
+  
+  .login:hover {
+    background-color: #f0f4ff;
+  }
+  
+  .signup {
+    background-color: #1e40af;
+    color: white;
+  }
+  
+  .signup:hover {
+    background-color: #1a3a9e;
+  }
+  
