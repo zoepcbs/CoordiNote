@@ -1,3 +1,6 @@
+[original repo link - currently privated] (https://github.com/jxie26/CoordiNote)
+
+
 # CoordiNote
 Web Dev 1 Final Project SP 2025
 
